@@ -1,0 +1,57 @@
+.licens-checkbox-container {
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+.licens-checkbox-label {
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-color-grey);
+  align-items: center;
+}
+.licens-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+.checkbox-unchecked {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--text-color-logo-dark);
+  border-radius: 2px;
+  margin-right: 10px;
+
+  &::before {
+    content: "";
+    display: block;
+    cursor: pointer;
+    margin-right: 7px;
+  }
+}
+.licens-checkbox:checked + .checkbox-unchecked {
+  display: block;
+  background-color: var(--text-color-hover);
+  background-image: url(../images/rectangle-focus.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  border: none;
+}
+
+.licens {
+  display: inline-block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-color-hover);
+}

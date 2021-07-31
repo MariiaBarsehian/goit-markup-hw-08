@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Studio</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+    <div class="header__container container">
+        <nav class="navigation">
+            <a class="logo" href="#"><span class="logoWebBlue">Web</span>Studio</a>
+            <ul class="menu">
+                <li class="menu__current-page-list"> 
+                    <a class="menu__link" href="./index.html">Студия</a>
+                </li>
+                <li class="menu__current-page-list"> 
+                    <a class="menu__current-page" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="menu__current-page-list"> 
+                    <a class="menu__link" href="#contacts">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="menu">
+            <li class="menu__list">
+                <a class="menu__contact-link" href="mail:info@devstudio.com">
+                    <span class="contact-icon-container">
+                        <svg class="contact-icon" width="16" height="12">
+                            <use href="./images/icons.svg#mail"></use>
+                        </svg>
+                    </span>
+                    <span>info@devstudio.com</span></a>
+            </li>
+            <li class="menu__list">
+                <a class="menu__contact-link" href="tel:+380961111111">
+                    <span class="contact-icon-container">
+                        <svg class="contact-icon" width="10" height="16">
+                            <use href="./images/icons.svg#phone"></use>
+                        </svg>
+                    </span>
+                    <span>+38 096 111 11 11</span></a>
+            </li>
+        </ul>
+    </div>
+    </header>
+            
+    <main>
+        <section class="section">
+        <!-- Наши работы -->
+        <div class="container">
+        <h1 hidden class="our-works-section-title visualy-hidden title">Направления работ</h1>
+            <ul class="type-of-works-buttons-list">
+                <li class="type-of-works-list">
+                    <button class="type-selection-btn" type="button">Все</button>
+                </li>
+                <li class="type-of-works-list">
+                    <button class="type-selection-btn" type="button">Веб-сайты</button>
+                </li>
+                <li class="type-of-works-list">
+                    <button class="type-selection-btn" type="button">Приложения</button>
+                </li>
+                <li class="type-of-works-list">
+                    <button class="type-selection-btn" type="button">Дизайн</button>
+                </li>
+                <li class="type-of-works-list">
+                    <button class="type-selection-btn" type="button">Маркетинг</button>
+                </li>
+            </ul>
+        <h2 hidden class="works-section-title visualy-hidden title">Примеры работ</h2>
+            <ul class="works-example">
+                <li class="works-example-item">
+                    <a class="works-example-link-box" href="#">
+                        <div class="works-example-box">
+                            <img src="./images/our_works/technokriak.jpg" alt="фото веб-сайта Технокряк" width="370" height="294">
+                            <div class="overlay">
+                                <p class="overlay-text">
+                                Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                                </p>
+                            </div>
+                        </div>
+                    
+                    <div class="works-example-card-container">
+                        <h3 class="works-example-name">Технокряк</h3>
+                        <p class="works-example-type">Веб-сайт</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="works-example-item">
+                    <a class="works-example-link-box" href="#">
+                        <div class="works-example-box">
+                            <img src="./images/our_works/poster-new-orlean.jpg" alt="фото дизайна Постер" width="370" height="294">
+                            <div class="overlay">
+                                <p class="overlay-text">
+                                </p>
+                            </div>
+                        </div>
+                    <div class="works-example-card-container">
+                        <h3 class="works-example-name">Постер <span class="english-for-names-of-works">New Orlean vs Golden
+                            Star</span></h3>
+                        <p class="works-example-type">Дизайн</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="works-example-item">
+                    <a class="works-example-link-box" href="#">
+                        <div class="works-example-box">
+                            <img src="./images/our_works/restorant.jpg" alt="фото приложения Ресторан" width="370" height="294">
+                                <div class="overlay">
+                                    <p class="overlay-text">
+                                    </p>
+                                </div>
+                        </div>
+                    <div class="works-example-card-container">
+                        <h3 class="works-example-name">Ресторан <span class="english-for-names-of-works">Seafood</span></h3>
+                        <p class="works-example-type">Приложение</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="works-example-item">
+                    <a class="works-example-link-box" href="#">
+                    <div class="works-example-box">
+                        <img src="./images/our_works/project-prime.jpg" alt="фото проекта Prime" width="370" height="294">
+                            <div class="overlay">
+                                <p class="overlay-text">
+                                </p>
+                            </div>
+                    </div>
+                    <div class="works-example-card-container">
+                        <h3 class="works-example-name">Проект <span class="english-for-names-of-works">Prime</span></h3>
+                        <p class="works-example-type">Маркетинг</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="works-example-item">
+                    <a class="works-example-link-box" href="#">
+                    <div class="works-example-box">
+                        <img src="./images/our_works/project-boxes.jpg" alt="фото приложения Проекта Boxes" width="370"
+                        height="294">
+                            <div class="overlay">
+                                <p class="overlay-text">
+                                </p>
+                            </div>
+                    </div>
+                    <div class="works-example-card-container">
+                        <h3 class="works-example-name">Проект <span class="english-for-names-of-works">Boxes</span></h3>
+                        <p class="works-example-type">Приложение</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="works-example-item">
+                    <a class="works-example-link-box" href="#">
+                    <div class="works-example-box">
+                        <img src="./images/our_works/inspiration.jpg" alt="фото веб-сайта Inspiration has no Borders" width="370"
+                        height="294">
+                            <div class="overlay">
+                                <p class="overlay-text">
+                                </p>
+                            </div>
+                    </div>
+                        <div class="works-example-card-container">
+                            <h3 class="works-example-name" lang="en">Inspiration has no Borders</h3>
+                            <p class="works-example-type">Веб-сайт</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="works-example-item">
+                    <a class="works-example-link-box" href="#">
+                    <div class="works-example-box">
+                        <img src="./images/our_works/publishing-limited-edition.jpg" alt="фото Издания Limited Edition" width="370"
+                        height="294">
+                            <div class="overlay">
+                                <p class="overlay-text">
+                                </p>
+                            </div>
+                    </div>
+                        <div class="works-example-card-container">
+                        <h3 class="works-example-name">Издание <span class="english-for-names-of-works">Limited
+                            Edition</span></h3>
+                        <p class="works-example-type">Дизайн</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="works-example-item">
+                    <a class="works-example-link-box" href="#">
+                    <div class="works-example-box">
+                        <img src="./images/our_works/project-lab.jpg" alt="фото Проект LAB" width="370" height="294">
+                        <div class="overlay">
+                            <p class="overlay-text">
+                            </p>
+                        </div>
+                    </div>
+                        <div class="works-example-card-container">
+                            <h3 class="works-example-name">Проект <span class="english-for-names-of-works">LAB</span></h3>
+                            <p class="works-example-type">Маркетинг</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="works-example-item">
+                    <a class="works-example-link-box" href="#">
+                    <div class="works-example-box">
+                        <img src="./images/our_works/app-growing-business.jpg" alt="фото приложения Growing Business" width="370"
+                        height="294">
+                            <div class="overlay">
+                                <p class="overlay-text">
+                                </p>
+                            </div>
+                    </div>
+                        <div class="works-example-card-container">
+                        <h3 class="works-example-name" lang="en">Growing Business</h3>
+                        <p class="works-example-type">Приложение</p>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </section>
+    </main>
+            
+    <footer class="footer" id="contacts">
+        <div class="futer-container container">
+            <div class="futer-adress-container">
+                <a class="logo-futer" href="#"><span class="logoWebBlue">Web</span>Studio</a>
+                <address class="adress-and-tel">
+                    <ul class="footer-contacts">
+                        <li class="footer-contacts-list">
+                            <a class="link-adress" href="https://goo.gl/maps/Gc34nFQgtVxxFrYX7" target="_blank"
+                                rel="noopener noreferer"> г.Киев, пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li class="footer-contacts-list">
+                            <a class="footer-contacts-item" href="mail:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="footer-contacts-list">
+                            <a class="footer-contacts-item" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+        <div class="footer-join-us-container">
+            <p class="join-us-title">ПРИСОЕДИНЯЙТЕСЬ</p>
+            <ul class="join-us-list">
+                <li class="join-us-list-item">
+                    <a class="join-us-link" href="#">
+                        <svg class="join-us-link-icon" width="20" height="20">
+                            <use href="./images/icons.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-us-list-item">
+                    <a class="join-us-link" href="#">
+                        <svg class="join-us-link-icon" width="20" height="20">
+                            <use href="./images/icons.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-us-list-item">
+                    <a class="join-us-link" href="#">
+                        <svg class="join-us-link-icon" width="20" height="20">
+                            <use href="./images/icons.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="join-us-list-item">
+                    <a class="join-us-link" href="#">
+                        <svg class="join-us-link-icon" width="20" height="20">
+                            <use href="./images/icons.svg#linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+            <div class="subscribe-container">
+                <p class="subscribe-title">Подпишитесь на рассылку</p>
+                <form class="subscribe-form" action="#" method="POST">
+                    <input type="email" class="subscribe-field-text" placeholder="E-mail" name="email" id="email" required>
+                    <button class="subscribe-btn" type="submit">
+                            <span>Подписаться</span>
+                                <svg class="subscribe-icon" width="24" height="24">
+                                    <use href="./images/modal-icon.svg#send">
+                                    </use>
+                                </svg>
+                    </button>
+                </form>
+            </div>
+        
+        </div>
+    </footer>
+    
+</body>
+    
+</html>

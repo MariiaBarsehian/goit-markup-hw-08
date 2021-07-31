@@ -1,0 +1,38 @@
+//FEATURES
+.features-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+//WHAT WE DO
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.what-we-do-list {
+  list-style: none;
+}
+//TEAM
+.team-members-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.team-social-links-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+//CLIENT
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+  background-position: center;
+}

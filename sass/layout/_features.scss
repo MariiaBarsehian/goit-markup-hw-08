@@ -1,0 +1,21 @@
+.features-section {
+  padding-bottom: 47px;
+}
+
+.features-section-icon-container {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-color-gray);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-section-list-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color-grey);
+}
