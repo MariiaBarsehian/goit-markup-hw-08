@@ -1021,3 +1021,48 @@ img {
 .send-btn:focus {
   background-color: var(--text-color-hover);
 }
+
+/*==========================================================*/
+.banner {
+  min-height: 600px;
+  background-image: url("../images/hero/hero_image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*mobile*/
+@media (min-device-pixel-ratio: 2) and (min-width: 280px),
+  (min-resolution: 192dpi) and (min-width: 280px),
+  (min-resolution: 2dppx) and (min-width: 280px) {
+  .banner {
+    background-image: url("photo@2x.png");
+  }
+}
+/*tablet*/
+@media screen and (min-width: 768px) {
+  .banner {
+    background-image: url("../images/hero/hero_image.png");
+  }
+}
+/*dpr2 + 760px*/
+@media (min-device-pixel-ratio: 2) and (min-width: 7680px),
+  (min-resolution: 192dpi) and (min-width: 768px),
+  (min-resolution: 2dppx) and (min-width: 768px) {
+  .banner {
+    background-image: url("photo@2x.png");
+  }
+}
+/*desktop*/
+@media screen and (min-width: 1200px) {
+  .banner {
+    background-image: url("../images/hero/hero_image.png");
+  }
+}
+/*dpr2 + 1200px*/
+@media (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  (min-resolution: 192dpi) and (min-width: 1200px),
+  (min-resolution: 2dppx) and (min-width: 280px) {
+  .banner {
+    background-image: url("photo@2x.png");
+  }
+}
