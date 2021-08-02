@@ -83,8 +83,13 @@
                 <li class="works-example-item">
                     <a class="works-example-link-box" href="#">
                         <div class="works-example-box">
-                            <img src="./images/our_works/technokriak.jpg" alt="фото веб-сайта Технокряк" width="370" height="294">
-                            <div class="overlay">
+                    <picture>
+                        <source media="(min-width: 280px)" srcset="./images/img/w1mob.jpg 1x, ./images/img/w1mob@2x.jpg 2x">
+                        <source media="(min-width: 768px)" srcset="./images/img/olga-tab.jpg 1x, ./images/img/olga-tab.jpg 2x">
+                        <source media="(min-width: 1200px)" srcset="./images/img/olga-desk.jpg 1x, ./images/img/olga-desk.jpg 2x">
+                        <img src="./images/our_works/technokriak.jpg" alt="фото веб-сайта Технокряк" width="370" height="294">
+                    </picture>
+                        <div class="overlay">
                                 <p class="overlay-text">
                                 Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
                                 </p>
