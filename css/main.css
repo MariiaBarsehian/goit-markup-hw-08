@@ -171,20 +171,6 @@ body {
   color: var(--text-color-main);
 }
 
-.features-section-list-title {
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  list-style: none;
-  margin-bottom: 10px;
-}
-
-.what-we-do-title {
-  font-style: normal;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 .our-team-title {
   font-style: normal;
   text-align: center;
@@ -385,7 +371,7 @@ body {
   border-color: var(--text-color-hover);
 }
 
-.features-section-list {
+.list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
@@ -425,12 +411,10 @@ body {
   background-position: center;
 }
 
-.features-section-list-item {
-  list-style: none;
-  text-align: left;
+.list-item {
   margin-top: 30px;
   margin-left: 30px;
-  flex-basis: calc((100% - 120px) / 4);
+  list-style: none;
 }
 
 .what-we-do-list__what-we-do-list-item {
@@ -591,8 +575,26 @@ body {
   }
 }
 
-.features-section {
-  padding-bottom: 47px;
+.features-section-list-item {
+  text-align: left;
+}
+
+.11111 {
+  margin-top: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .features-section-list-item {
+    display: flex;
+    flex-basis: calc((100% - 120px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features-section-list-item {
+    display: flex;
+    flex-basis: calc((100% - 120px) / 4);
+  }
 }
 
 .features-section-icon-container {
@@ -606,6 +608,15 @@ body {
   align-items: center;
 }
 
+.features-section-list-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  list-style: none;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .features-section-list-text {
   font-size: 14px;
   line-height: 1.71;
@@ -614,7 +625,20 @@ body {
 }
 
 .what-we-do-galary {
+  display: none;
   padding-top: 45px;
+}
+
+@media screen and (min-width: 1200px) {
+  .what-we-do-galary {
+    display: inline;
+  }
+}
+
+.what-we-do-title {
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .what-we-do-list__item-container {

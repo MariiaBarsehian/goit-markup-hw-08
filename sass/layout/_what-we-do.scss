@@ -1,7 +1,18 @@
 .what-we-do-galary {
+  display: none;
   padding-top: 45px;
 }
 
+@media screen and (min-width: 1200px) {
+  .what-we-do-galary {
+    display: inline;
+  }
+}
+.what-we-do-title {
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 50px;
+}
 .what-we-do-list__item-container {
   position: absolute;
   bottom: 0px;
