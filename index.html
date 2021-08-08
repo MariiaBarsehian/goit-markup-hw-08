@@ -17,7 +17,7 @@
 </head>
 
 <body>
-   <!-- <header class="header">
+   <header class="header">
     <div class="header__container container">
         <nav class="navigation">
             <a class="logo" href="#"><span class="logoWebBlue">Web</span>Studio</a>
@@ -52,7 +52,6 @@
         </ul>
     </div>
     </header>
--->
 
     <main>
         <section class="hero-section-descisions">
@@ -61,9 +60,9 @@
         </section>
 
         <!-- Особенности -->
-        <div class="container">
+        <div class="features-container">
             <h2 hidden class="visualy-hidden">Особенности</h2>
-            <ul class="list">
+            <ul>
                 <li class="list-item features-section-list-item">
                     <div>
                     <div class="features-section-icon-container">
@@ -124,7 +123,7 @@
             <h2 class="title what-we-do-title">Чем мы занимаемся</h2>
             <ul class="what-we-do-list list">
                 <li class="what-we-do-list__what-we-do-list-item">
-                    <picture>
+                    <picture class="what-we-do-pic">
                         <source media="(min-width: 1200px)" srcset="../images/img/desktop.jpg 1x, ../images/img/desktop@2x.jpg 2x">
                         <img src="#" alt="мы работаем с помощью компьютера">
                     </picture>
@@ -153,16 +152,16 @@
             </ul>
         </section>
         <!-- Команда -->
-<!--        <section class="our-team-section section">
-        <div class="our-team-container container">
+        <section class="our-team-section section">
+        <div class="our-team-container">
             <h2 class="title our-team-title">Наша команда</h2>
-            <ul class="team-members-list">
+            <ul class="our-team-list list">
                 <li class="team-member-item">
                     <picture>
                         <source media="(min-width: 1200px)" srcset="../images/img/igor-desk.jpg 1x, ./images/img/igor-desk@2x.jpg 2x">
                         <source media="(min-width: 768px)" srcset="../images/img/igor-tab.jpg 1x, ./images/img/igor-tab@2x.jpg 2x">
                         <source media="(min-width: 280px)" srcset="../images/img/igor-mobile.jpg 1x, ./images/img/igor-mobile@2x.jpg 2x">
-                        <img src="./images/team/igor.jpg" alt="фото Игорь Демьяненко" width="270" height="260">
+                        <img  class="photo" src="./images/team/igor.jpg" alt="фото Игорь Демьяненко">
                     </picture>
                     <div class="team-member-container">
                         <h3 class="team-member-name">Игорь Демьяненко</h3>
@@ -204,7 +203,7 @@
                         <source media="(min-width: 1200px)" srcset="./images/img/olga-desk.jpg 1x, ./images/img/olga-desk@2x.jpg 2x">
                         <source media="(min-width: 768px)" srcset="./images/img/olga-tab.jpg 1x, ./images/img/olga-tab@2x.jpg 2x">
                         <source media="(min-width: 280px)" srcset="./images/img/olga-mobile.jpg 1x, ./images/img/olga-mobile@2x.jpg 2x">
-                        <img src="./images/team/olga.jpg" alt="фото Ольга Репина" width="270" height="260">
+                        <img  class="photo" src="./images/team/olga.jpg" alt="фото Ольга Репина">
                     </picture>
                      <div class="team-member-container">
                          <h3 class="team-member-name">Ольга Репина</h3>
@@ -242,11 +241,11 @@
                     </div>
                     </li>
                 <li class="team-member-item">
-                    <picture>
+                    <picture class="photo">
                         <source media="(min-width: 1200px)" srcset="./images/img/nick-desk.jpg 1x, ./images/img/nick-desk@2x.jpg 2x">
                         <source media="(min-width: 768px)" srcset="./images/img/nick-tab.jpg 1x, ./images/img/nick-tab@2x.jpg 2x">
                         <source media="(min-width: 280px)" srcset="./images/img/nick-mobile.jpg 1x, ./images/img/nick-mobile@2x.jpg 2x">
-                        <img src="./images/team/nik.jpg" alt="фото Николай Тарасов" width="270" height="260">
+                        <img src="./images/team/nik.jpg" alt="фото Николай Тарасов">
                     </picture>
                         <div class="team-member-container">
                          <h3 class="team-member-name">Николай Тарасов</h3>
@@ -284,11 +283,11 @@
                     </div>
                     </li>
                 <li class="team-member-item">
-                    <picture>
+                    <picture class="photo">
                         <source media="(min-width: 1200px)" srcset="./images/img/mike-desk.jpg 1x, ./images/img/mike-desk@2x.jpg 2x">
                         <source media="(min-width: 768px)" srcset="./images/img/mike-tab.jpg 1x, ./images/img/mike-tab@2x.jpg 2x">
                         <source media="(min-width: 280px)" srcset="./images/img/mike-mobile.jpg 1x, ./images/img/mike-mobile@2x.jpg 2x">
-                        <img src="./images/team/mike.jpg" alt="фото Михаил Ермаков" width="270" height="260">
+                        <img src="./images/team/mike.jpg" alt="фото Михаил Ермаков">
                     </picture>        
                         <div class="team-member-container">
                          <h3 class="team-member-name">Михаил Ермаков</h3>
@@ -328,8 +327,8 @@
             </ul>
         </div>
         </section>
-    -->
-    <!--
+
+    
         <section class="section clients-section ">
             <div class="clients-container container">
                 <h2 class="title clients-title">Постоянные клиенты</h2>
@@ -379,9 +378,9 @@
                     </ul>
             </div>
         </section>
-    -->
+    
     </main>
-<!--
+
     <footer class="footer" id="contacts">
         <div class="futer-container container">
             <div class="futer-adress-container">
@@ -509,7 +508,6 @@
         </div>
 
     <script src="./js/modal.js"></script>
--->
 </body>
 
 </html>

@@ -1,18 +1,18 @@
 .hero-section-descisions {
+  margin: 0 auto;
+  padding: 118px 0;
   max-width: 767px;
   min-height: 400px;
-  padding: 118px 0;
-  margin: 0 auto;
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  text-align: center;
+  background-position: center;
   background: var(--background-color-dark);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero/hero_image.png);
+  text-align: center;
 
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -78,5 +78,10 @@
         ),
         url("../images/img/hero-desk@2x.png");
     }
+  }
+  .descisions-title {
+    max-width: 610px;
+    font-size: 44px;
+    line-height: 1.36;
   }
 }
