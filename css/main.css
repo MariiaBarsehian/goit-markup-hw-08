@@ -491,12 +491,12 @@ body {
   padding: 118px 0;
   max-width: 767px;
   min-height: 400px;
+  background: var(--background-color-dark);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero_image.png");
+  text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background: var(--background-color-dark);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero_image.png);
-  text-align: center;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
@@ -519,7 +519,7 @@ body {
 @media screen and (min-width: 768px) {
   .hero-section-descisions {
     max-width: 1199px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img/hero-tab.jpn");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img/hero-tab.png");
   }
 }
 
@@ -553,26 +553,46 @@ body {
   }
 }
 
-.features-container {
-  margin-top: 60px;
+.features-section {
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 0px 15px 60px 0px;
 }
 
-.features-section-list-item {
-  display: block;
+.features-container {
+  margin-top: 60px;
+  max-width: 1200px;
 }
 
 @media screen and (min-width: 768px) {
+  .features-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
   .features-section-list-item {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
     flex-basis: calc((100% - 60px) / 2);
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .features-section-list-item {
+  .features-section-list {
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .features-section-list-item {
+    display: block;
     align-items: center;
+    margin-left: 30px;
+    margin-bottom: 60px;
     flex-basis: calc((100% - 120px) / 4);
   }
 }
@@ -605,6 +625,7 @@ body {
 }
 
 .what-we-do-galary {
+  display: none;
   padding-top: 45px;
 }
 
