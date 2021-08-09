@@ -20,14 +20,46 @@
   background-color: transparent;
   border: none;
   padding: 0px;
+  line-height: 0px;
 
   &__icon {
     width: 40px;
     height: 40px;
-    line-height: 0px;
   }
 }
 .burger-btn:hover,
 .burger-btn:focus {
   fill: var(--text-color-hover);
+}
+
+.mobile-menu {
+  position: fixed;
+  z-index: 100;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  //var(--background-color-main);
+}
+.close-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  line-height: 0px;
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+
+}
+
+.mobile-menu__close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.mobile-menu__container {
+  position: relative;
 }
