@@ -27,7 +27,7 @@
     flex-basis: calc((100% - 60px) / 2);
   }
 }
-@media screen and (width: 1200px) {
+@media screen and (min-width: 1200px) {
   .team-member-item {
     flex-basis: calc((100% - 120px) / 4);
   }
