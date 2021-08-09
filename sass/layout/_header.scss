@@ -3,6 +3,8 @@
 }
 .header__container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   &::after {
     content: "";
@@ -13,4 +15,19 @@
     margin: 0;
     margin-top: 0px;
   }
+}
+.burger-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+
+  &__icon {
+    width: 40px;
+    height: 40px;
+    line-height: 0px;
+  }
+}
+.burger-btn:hover,
+.burger-btn:focus {
+  fill: var(--text-color-hover);
 }
