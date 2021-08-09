@@ -323,14 +323,12 @@ body {
   align-items: center;
 }
 
-.header__container::after {
-  content: "";
-  display: block;
-  max-width: 1600px;
-  height: 1px;
-  background-color: #ececec;
-  margin: 0;
-  margin-top: 0px;
+@media screen and (max-width: 768px) {
+  .header__container {
+    margin: 0px auto;
+    max-width: 767px;
+    padding: 0px 15px;
+  }
 }
 
 .burger-btn {
@@ -351,13 +349,14 @@ body {
 }
 
 .mobile-menu {
+  display: none;
   position: fixed;
   z-index: 100;
   left: 0px;
   top: 0px;
   width: 100vw;
   height: 100vh;
-  background-color: var(--background-color-main);
+  background-color: gray;
 }
 
 .close-btn {
@@ -365,6 +364,21 @@ body {
   border: none;
   padding: 0px;
   line-height: 0px;
+}
+
+.close-btn__icon {
+  width: 40px;
+  height: 40px;
+}
+
+.mobile-menu__close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.mobile-menu__container {
+  position: relative;
 }
 
 .navigation {
