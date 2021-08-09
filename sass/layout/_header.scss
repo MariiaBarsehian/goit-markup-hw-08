@@ -39,6 +39,7 @@
 .burger-btn:hover,
 .burger-btn:focus {
   fill: var(--text-color-hover);
+  cursor: pointer;
 }
 
 .mobile-menu {
